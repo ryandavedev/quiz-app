@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+.first-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fp--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fp--container h2 {
+    font-size: 4em;
+    color: rgb(71, 71, 167);
+}
+
+.fp--container p {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.start--btn {
+    border: 1px solid rgb(71, 71, 167);
+    padding: 10px 30px;
+    background-color: transparent;
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    margin-right: 20px;
+    color: rgb(71, 71, 167);
+    margin: 20px 0;
+}
+
+.start--btn:hover {
+    cursor: pointer;
+    background-color: rgb(71, 71, 167);
+    color: white;
+}
+
+.first-page.start {
+    display: none;
+}
+
+/* ----------QUESTION SECTION -------------- */
+.second-page {
+    padding: 50px 100px;
+    display: none;
+}
+
+.second-page.start {
+    display: block;
+}
+
+.question--text {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.choice--btn {
+    border: 1px solid rgb(71, 71, 167);
+    padding: 10px 20px;
+    background-color: transparent;
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    margin-right: 20px;
+}
+
+.checked {
+    background-color: rgb(71, 71, 167);
+    color: white;
+    border: 1px solid rgb(71, 71, 167);
+    padding: 10px 20px;
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    margin-right: 20px;
+}
+
+.checked:hover {
+    cursor: pointer;
+}
+
+.choice--btn:hover {
+    cursor: pointer;
+    background-color: rgb(71, 71, 167);
+    color: white;
+}
+
+.hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 0.4;
+}
+
+.footer-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.check--ans {
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(71, 71, 167);
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    margin-right: 20px;
+    color: white;
+}
+
+.check--ans:hover {
+    cursor: pointer;
+}
+
+.result {
+    font-size: 1em;
+    font-weight: 600;
+    color: rgb(71, 71, 167);
+    margin-right: 30px;
+}
